@@ -95,9 +95,10 @@ tests/               Deterministic unit tests
   binaries are not copied into Git.
 - Local screenshots, design references, and earlier franchise artwork are
   ignored. They remain on the creator's machine but are not needed by a clone.
-- `npm run db:generate` regenerates Drizzle migration metadata after schema
-  changes. `node scripts/refresh-poster-urls.mjs` refreshes poster references and
-  performs network requests, so review its diff before committing.
+- Database migrations and metadata are committed under `drizzle/`. Install a
+  compatible Drizzle Kit release only when intentionally generating a new
+  migration. `node scripts/refresh-poster-urls.mjs` refreshes poster references
+  and performs network requests, so review its diff before committing.
 
 ## Progress integrity
 
