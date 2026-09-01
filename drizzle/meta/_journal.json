@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788026767450,
+      "tag": "0000_right_gunslinger",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788026794425,
+      "tag": "0001_wandering_switch",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788028522000,
+      "tag": "0002_playback_speed",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1788052039000,
+      "tag": "0003_watch_modes",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1788134400000,
+      "tag": "0004_observation_ledger",
+      "breakpoints": true
+    }
+  ]
+}

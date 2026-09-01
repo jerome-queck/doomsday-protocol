@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX `idx_sync_events_source_external` ON `sync_events` (`user_id`,`source`,`external_event_id`) WHERE "sync_events"."external_event_id" IS NOT NULL;--> statement-breakpoint
+CREATE INDEX `idx_watch_progress_user_watched` ON `watch_progress` (`user_id`,`watched`);

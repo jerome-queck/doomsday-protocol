@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Doomsday Protocol</title>
+  <desc id="description">A cinematic watch tracker with exact progress and deadline planning.</desc>
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="28%" r="76%">
+      <stop stop-color="#7d201f"/>
+      <stop offset=".45" stop-color="#19171b"/>
+      <stop offset="1" stop-color="#07090d"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#e54338"/>
+      <stop offset="1" stop-color="#7c211f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity=".18" stroke="#f5e5c8">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/>
+    <path d="M200 0v630M400 0v630M600 0v630M800 0v630M1000 0v630"/>
+  </g>
+  <rect x="72" y="64" width="1056" height="502" rx="18" fill="none" stroke="#f0d8b2" stroke-opacity=".28" stroke-width="2"/>
+  <rect x="72" y="64" width="10" height="502" rx="5" fill="url(#line)"/>
+  <text x="126" y="165" fill="#e54338" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="7">MISSION CONTROL</text>
+  <text x="122" y="293" fill="#f4e7d0" font-family="Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="2">DOOMSDAY</text>
+  <text x="126" y="383" fill="#f4e7d0" font-family="Arial, sans-serif" font-size="76" font-weight="300" letter-spacing="15">PROTOCOL</text>
+  <rect x="126" y="428" width="474" height="3" fill="url(#line)"/>
+  <text x="126" y="490" fill="#b9afa2" font-family="Arial, sans-serif" font-size="26" letter-spacing="2">EXACT PROGRESS · NIGHTLY SLATES · FINISH FORECAST</text>
+  <circle cx="1000" cy="151" r="48" fill="none" stroke="#e54338" stroke-width="4"/>
+  <path d="m1000 117 30 13v22c0 19-12 30-30 35-18-5-30-16-30-35v-22l30-13Z" fill="#0d1118" stroke="#f4e7d0" stroke-width="3"/>
+</svg>
